@@ -1,0 +1,112 @@
+body {
+    background: #eee;
+}
+
+header {
+    background: #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+header img {
+    height: 100px;
+    vertical-align: top;
+}
+
+header nav a {
+    display: block;
+}
+
+.container {
+    padding: 1rem;
+}
+
+.box {
+    padding: 1rem;
+    display: flex;
+}
+
+main.container {
+    padding: 2rem;
+    background: rgb(211, 199, 199);
+    border-radius: 1rem;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+
+}
+
+.links {
+    padding: 2rem;
+    background: rgb(211, 199, 199);
+    border-radius: 1rem;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 112rem;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+
+footer {
+    text-align: center;
+    padding: 0 1rem 1rem 1rem;
+}
+
+@media screen and (min-width: 769px) and (max-width:1200px) {
+    header .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header img {
+        height: 6rem;
+    }
+
+    header .container {
+        padding: 0;
+    }
+
+    header nav a {
+        display: inline;
+        margin-left: 1rem;
+    }
+
+    .main .container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    header .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header img {
+        height: 6rem;
+    }
+
+    header .container {
+        padding: 0;
+    }
+
+    header nav a {
+        display: inline;
+        margin-left: 1rem;
+    }
+
+    .div {
+        align-content: center;
+    }
+
+
+
+
+}
